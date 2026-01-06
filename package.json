@@ -1,0 +1,42 @@
+{
+  "name": "zen-todo",
+  "version": "1.0.0",
+  "description": "A zen, premium to-do app with no noise, no ads, pure functionality",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "lucide-react": "^0.263.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "cap:add:android": "capacitor add android",
+    "cap:open:android": "capacitor open android",
+    "cap:build": "npm run build && capacitor copy && capacitor update"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@capacitor/android": "^5.5.0",
+    "@capacitor/cli": "^5.5.0",
+    "@capacitor/core": "^5.5.0"
+  }
+}
